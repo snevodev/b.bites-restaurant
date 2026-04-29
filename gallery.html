@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | B.Bites Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <!--HEADER/NAVIGATION BY KENECHUKWU KINGSLY NWOBU-->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">B.Bites</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============ HERO SECTION ============ -->
+    <!--GALLERY HERO BY KENECHUKWU KINGSLY NWOBU-->
+    <section class="gallery-hero">
+        <div>
+            <h1>Our Gallery</h1>
+            <p>A glimpse into our flavors, our space, and our story</p>
+        </div>
+    </section>
+
+    <!-- ============ INTRO ============ -->
+    <!--GALLERY INTRO BY KENECHUKWU KINGSLY NWOBU-->
+    <section class="gallery-intro">
+        <h2>Step Inside B.Bites</h2>
+        <p>From beautifully plated dishes to our cozy dining atmosphere, every corner of B.Bites tells a story of passion, flavor, and craft. Browse our gallery and get a taste of what awaits you.</p>
+    </section>
+
+    <!-- ============ FILTER TABS ============ -->
+    <!--GALLERY FILTER TABS BY KENECHUKWU KINGSLY NWOBU-->
+    <section class="filter-section">
+        <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="food">Food</button>
+            <button class="filter-btn" data-filter="interior">Interior</button>
+            <button class="filter-btn" data-filter="atmosphere">Atmosphere</button>
+            <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+        </div>
+    </section>
+
+    <!-- ============ GALLERY GRID ============ -->
+    <!--GALLERY GRID BY KENECHUKWU KINGSLY NWOBU-->
+    <section class="gallery-section">
+        <div class="gallery-grid" id="galleryGrid">
+
+            <!-- Food -->
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Fresh salad bowl with grilled chicken">
+                <div class="gallery-overlay"><span>Signature Bowl</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Wood-fired pizza on a wooden board">
+                <div class="gallery-overlay"><span>Wood-Fired Pizza</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80" alt="Stack of fluffy pancakes with syrup">
+                <div class="gallery-overlay"><span>Sweet Pancakes</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80" alt="Juicy burger with fries">
+                <div class="gallery-overlay"><span>B.Bites Classic Burger</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&q=80" alt="Fresh sushi rolls plate">
+                <div class="gallery-overlay"><span>Sushi Selection</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&q=80" alt="Plated grilled steak with vegetables">
+                <div class="gallery-overlay"><span>Grilled Specials</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="food">
+                <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80" alt="Beautifully plated pasta dish">
+                <div class="gallery-overlay"><span>Pasta Alfredo</span></div>
+            </div>
+
+            <!-- Interior -->
+            <div class="gallery-item" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Warm restaurant interior with wooden tables">
+                <div class="gallery-overlay"><span>Main Dining Hall</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80" alt="Modern restaurant lounge area">
+                <div class="gallery-overlay"><span>Lounge Corner</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80" alt="Private dining table set up">
+                <div class="gallery-overlay"><span>Private Dining</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="interior">
+                <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=600&q=80" alt="Stylish bar counter with stools">
+                <div class="gallery-overlay"><span>The Bar</span></div>
+            </div>
+
+            <!-- Atmosphere -->
+            <div class="gallery-item" data-category="atmosphere">
+                <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=600&q=80" alt="Friends dining together at restaurant">
+                <div class="gallery-overlay"><span>Good Company</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="atmosphere">
+                <img src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=600&q=80" alt="Couple enjoying romantic dinner">
+                <div class="gallery-overlay"><span>Romantic Evenings</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="atmosphere">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Group celebrating at restaurant table">
+                <div class="gallery-overlay"><span>Celebrations</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="atmosphere">
+                <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?w=600&q=80" alt="Outdoor dining patio at evening">
+                <div class="gallery-overlay"><span>Evening Patio</span></div>
+            </div>
+
+            <!-- Kitchen / Chef -->
+            <div class="gallery-item" data-category="kitchen">
+                <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600&q=80" alt="Chef plating a dish in the kitchen">
+                <div class="gallery-overlay"><span>Chef at Work</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="kitchen">
+                <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80" alt="Busy professional kitchen">
+                <div class="gallery-overlay"><span>Behind the Scenes</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="kitchen">
+                <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=600&q=80" alt="Chef preparing fresh ingredients">
+                <div class="gallery-overlay"><span>Fresh Prep Daily</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="kitchen">
+                <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?w=600&q=80" alt="Flame in kitchen during cooking">
+                <div class="gallery-overlay"><span>The Heat of the Kitchen</span></div>
+            </div>
+
+            <div class="gallery-item" data-category="kitchen">
+                <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=600&q=80" alt="Kitchen team preparing orders">
+                <div class="gallery-overlay"><span>Our Kitchen Team</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <!--GALLERY CTA BY KENECHUKWU KINGSLY NWOBU-->
+    <section class="gallery-cta">
+        <h2>Hungry yet?</h2>
+        <p>Come experience B.Bites for yourself.</p>
+        <a href="contact.html" class="cta-btn">Reserve a Table</a>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <!--GALLERY FOOTER BY KENECHUKWU KINGSLY NWOBU-->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>B.Bites Restaurant</h3>
+                <p>Where every bite tells a story. Quality ingredients, warm hospitality.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Visit Us</h4>
+                <p>123 Flavor Street<br>Port Harcourt, Nigeria</p>
+                <p>Open daily: 10am &ndash; 11pm</p>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 B.Bites Restaurant. Built by Group 8.</p>
+        </div>
+    </footer>
+
+    <!-- ============ JS: Filter + Hamburger ============ -->
+    <!--GALLERY JAVASCRIPT BY KENECHUKWU KINGSLY NWOBU-->
+    <script>
+        // Category filter
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.classList.remove('hide');
+                    } else {
+                        item.classList.add('hide');
+                    }
+                });
+            });
+        });
+
+        // Mobile menu toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | B.Bites Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">B.Bites</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============ CONTACT HERO ============ -->
+    <!-- CONTACT SECTION BY NWAGBARA BLESSING CHIAMAKA -->
+    <section class="contact-hero">
+        <div>
+            <h1>Contact Us Here</h1>
+            <p>We're here to assist you with any inquiries, reservations, or feedback you may have.</p>
+        </div>
+    </section>
+
+    <!-- ============ INTRO BAR ============ -->
+    <div class="contact-intro-bar">
+        <h2>Get In Touch</h2>
+        <p>We would love to hear from you!</p>
+    </div>
+
+    <!-- ============ CONTACT BODY ============ -->
+    <div class="contact-body">
+        <div class="contact-grid">
+
+            <!-- FORM -->
+            <div class="contact-form-wrap">
+                <h3>Make a Reservation</h3>
+
+                <form>
+                    <!-- Personal Information -->
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Personal Information</legend>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+234xxxxxxxxxx" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="datetime">Date &amp; Time</label>
+                                <input type="datetime-local" id="datetime" name="date" required>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <!-- Reservation Details -->
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Reservation Details</legend>
+                        <div class="form-row">
+                            <div class="form-group form-full">
+                                <label for="guests">Number of Guests</label>
+                                <input type="number" id="guests" name="guests" placeholder="Enter number of guests" min="1" required>
+                            </div>
+                            <div class="form-group form-full">
+                                <label for="message">Special Request</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Any dietary requirements, occasions, or special notes..."></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit" class="submit-btn">Book Now</button>
+                </form>
+            </div>
+
+            <!-- INFO PANEL -->
+            <div class="contact-info-panel">
+                <h3>Contact Information</h3>
+
+                <div class="info-block">
+                    <h4><i class="fas fa-map-marker-alt"></i> &nbsp;Address</h4>
+                    <p>123 Food Street<br>Lagos, Nigeria</p>
+                </div>
+
+                <div class="info-block">
+                    <h4><i class="fas fa-phone"></i> &nbsp;Contact</h4>
+                    <p><strong>Phone:</strong> +234 815 327 6787</p>
+                    <p><strong>Email:</strong> turingtech45@gmail.com</p>
+                </div>
+
+                <div class="info-block">
+                    <h4><i class="fas fa-clock"></i> &nbsp;Open Time</h4>
+                    <p>Monday &ndash; Friday: 9:00 AM &ndash; 10:00 PM</p>
+                    <p>Saturday: 10:00 AM &ndash; 11:00 PM</p>
+                    <p>Sunday: 12:00 PM &ndash; 8:00 PM</p>
+                </div>
+
+                <div class="info-block">
+                    <h4><i class="fas fa-share-alt"></i> &nbsp;Stay Connected</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ============ MAP ============ -->
+    <div class="map-section">
+        <h2>Find Us Here</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6636014614797!2d3.3781729748884753!3d6.453055123946977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1714000000000!5m2!1sen!2sng"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="B.Bites Restaurant Location on Google Maps">
+        </iframe>
+    </div>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>B.Bites Restaurant</h3>
+                <p>Where every bite tells a story. Quality ingredients, warm hospitality.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Visit Us</h4>
+                <p>123 Flavor Street<br>Port Harcourt, Nigeria</p>
+                <p>Open daily: 9am &ndash; 11pm</p>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 B.Bites Restaurant. Built by Group 8.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+    </script>
+
+</body>
+</html>

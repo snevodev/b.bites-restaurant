@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | B.Bites Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">B.Bites</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============ MENU HERO ============ -->
+    <!-- HERO AND MENU SECTION BY NEVO SAMUEL PROSPER -->
+    <section class="menu-hero">
+        <div>
+            <h1>Our Menu</h1>
+            <p>Fresh, handcrafted, and made with love every day</p>
+        </div>
+    </section>
+
+    <!-- ============ MENU TABS ============ -->
+    <div class="menu-tabs">
+        <button class="tab-btn active" data-target="appetizers">Appetizers</button>
+        <button class="tab-btn" data-target="mains">Main Courses</button>
+        <button class="tab-btn" data-target="desserts">Desserts</button>
+        <button class="tab-btn" data-target="drinks">Drinks</button>
+    </div>
+
+    <!-- ============ MENU CONTENT ============ -->
+    <main class="menu-content">
+
+        <!-- APPETIZERS -->
+        <div class="category" id="appetizers">
+            <h2>Appetizers</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Spring Rolls</h3>
+                        <span class="price">&#8358;1,400</span>
+                    </div>
+                    <p>Crispy vegetable-filled rolls served with sweet chili dipping sauce.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Garlic Bread</h3>
+                        <span class="price">&#8358;1,800</span>
+                    </div>
+                    <p>Buttery toasted garlic bread with fresh herbs and a hint of parmesan.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Chicken Wings</h3>
+                        <span class="price">&#8358;3,000</span>
+                    </div>
+                    <p>Spicy grilled chicken wings with our signature suya-spiced glaze.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Loaded Nachos</h3>
+                        <span class="price">&#8358;12,000</span>
+                    </div>
+                    <p>Crispy tortilla chips with melted cheese sauce, jalapeños, and fresh salsa.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Mini Burgers</h3>
+                        <span class="price">&#8358;3,450</span>
+                    </div>
+                    <p>Bite-sized juicy sliders on brioche buns with caramelized onions.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Pepper Soup</h3>
+                        <span class="price">&#8358;4,500</span>
+                    </div>
+                    <p>Nigerian-style fish pepper soup with aromatic spices and fresh herbs.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN COURSES -->
+        <div class="category" id="mains">
+            <h2>Main Courses</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Grilled Chicken</h3>
+                        <span class="price">&#8358;18,000</span>
+                    </div>
+                    <p>Herb-marinated whole chicken, flame-grilled, served with fries and garden salad.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Jollof Rice &amp; Chicken</h3>
+                        <span class="price">&#8358;10,000</span>
+                    </div>
+                    <p>Smoky party-style Nigerian jollof rice with grilled chicken and fried plantains.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Beef Burger</h3>
+                        <span class="price">&#8358;5,000</span>
+                    </div>
+                    <p>Juicy 200g beef patty with melted cheese, lettuce, tomato, and house sauce.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Fried Rice</h3>
+                        <span class="price">&#8358;7,000</span>
+                    </div>
+                    <p>Wok-tossed mixed vegetable fried rice with eggs and choice of protein.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Pasta Alfredo</h3>
+                        <span class="price">&#8358;12,000</span>
+                    </div>
+                    <p>Fettuccine in a rich creamy Alfredo sauce with grilled chicken and parmesan.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Yam &amp; Vegetable Stew</h3>
+                        <span class="price">&#8358;32,000</span>
+                    </div>
+                    <p>Boiled cubed yam simmered in palm oil with spinach, crayfish, and peppers.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESSERTS -->
+        <div class="category" id="desserts">
+            <h2>Desserts</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Chocolate Cake</h3>
+                        <span class="price">&#8358;4,500</span>
+                    </div>
+                    <p>Rich, moist chocolate layer cake with velvety ganache frosting.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Ice Cream</h3>
+                        <span class="price">&#8358;3,700</span>
+                    </div>
+                    <p>Choice of vanilla, chocolate, or strawberry with optional toppings.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Fruit Salad</h3>
+                        <span class="price">&#8358;3,000</span>
+                    </div>
+                    <p>Fresh seasonal tropical fruits drizzled with honey and mint.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Cheesecake</h3>
+                        <span class="price">&#8358;5,200</span>
+                    </div>
+                    <p>Creamy New York-style baked cheesecake with berry coulis.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Glazed Donuts</h3>
+                        <span class="price">&#8358;3,100</span>
+                    </div>
+                    <p>Soft, pillowy glazed donuts served warm with dipping chocolate sauce.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Puff Puff</h3>
+                        <span class="price">&#8358;2,200</span>
+                    </div>
+                    <p>Nigerian deep-fried sweet dough balls dusted with powdered sugar.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DRINKS -->
+        <div class="category" id="drinks">
+            <h2>Drinks</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Fresh Juice</h3>
+                        <span class="price">&#8358;1,300</span>
+                    </div>
+                    <p>Cold-pressed natural fruit blends — orange, watermelon, pineapple, or mango.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Soft Drinks</h3>
+                        <span class="price">&#8358;800</span>
+                    </div>
+                    <p>Coke, Fanta, Sprite, Malt, or Chapman.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Milkshake</h3>
+                        <span class="price">&#8358;1,000</span>
+                    </div>
+                    <p>Thick and creamy blended vanilla, chocolate, or strawberry milkshake.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Bottled Water</h3>
+                        <span class="price">&#8358;400</span>
+                    </div>
+                    <p>Pure chilled mineral water — still or sparkling.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Iced Tea</h3>
+                        <span class="price">&#8358;600</span>
+                    </div>
+                    <p>Chilled lemon-flavored tea, lightly sweetened and refreshing.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-header">
+                        <h3>Zobo Punch</h3>
+                        <span class="price">&#8358;900</span>
+                    </div>
+                    <p>Traditional Nigerian hibiscus punch with ginger, pineapple, and citrus.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ============ NOTE ============ -->
+    <div class="menu-note">
+        <p>All dishes are made fresh daily with high-quality, locally-sourced ingredients.</p>
+    </div>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>B.Bites Restaurant</h3>
+                <p>Where every bite tells a story. Quality ingredients, warm hospitality.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Visit Us</h4>
+                <p>123 Flavor Street<br>Port Harcourt, Nigeria</p>
+                <p>Open daily: 9am &ndash; 11pm</p>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 B.Bites Restaurant. Built by Group 8.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+        // Tab filter — smooth scroll to category
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                tabBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const target = document.getElementById(btn.dataset.target);
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    </script>
+
+</body>
+</html>
